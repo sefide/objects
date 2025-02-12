@@ -51,4 +51,22 @@ public class DiscountCondition {
     public void setSequence(int sequence) {
         this.sequence = sequence;
     }
+
+    public boolean isDiscountable(DayOfWeek dayOfWeek, LocalTime time) {
+        if (type != DiscountConditionType.PERIOD) {
+            throw new IllegalArgumentException();
+        }
+
+        return this.dayOfWeek.equals(dayOfWeek) &&
+                this.startTime.isBefore(time) &&
+                this.endTime.isAfter(time);
+    }
+
+    public boolean isDiscountable(int sequence) {
+        if (type != DiscountConditionType.SEQUENCE) {
+            throw new IllegalArgumentException();
+        }
+
+        return this.sequence == sequence;
+    }
 }
