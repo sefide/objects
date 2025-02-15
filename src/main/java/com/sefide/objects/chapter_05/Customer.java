@@ -1,4 +1,4 @@
-package com.sefide.objects.move_data_system;
+package com.sefide.objects.chapter_05;
 
 public class Customer {
     private String name;

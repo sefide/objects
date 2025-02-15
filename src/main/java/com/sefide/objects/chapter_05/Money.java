@@ -1,4 +1,4 @@
-package com.sefide.objects.move_data_system;
+package com.sefide.objects.chapter_05;
 
 public class Money {
     public static final Money ZERO = new Money(0.0);
