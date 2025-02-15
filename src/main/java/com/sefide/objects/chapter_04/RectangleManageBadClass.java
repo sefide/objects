@@ -1,4 +1,4 @@
-package com.sefide.objects.chapter_05;
+package com.sefide.objects.chapter_04;
 
 public class RectangleManageBadClass {
     void enlarge(Rectangle rectangle, int multiple) {

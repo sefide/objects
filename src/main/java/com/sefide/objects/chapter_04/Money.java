@@ -1,4 +1,4 @@
-package com.sefide.objects.chapter_05;
+package com.sefide.objects.chapter_04;
 
 public class Money {
     public static final Money ZERO = new Money(0.0);

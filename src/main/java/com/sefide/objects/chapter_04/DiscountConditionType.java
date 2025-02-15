@@ -1,4 +1,4 @@
-package com.sefide.objects.chapter_05;
+package com.sefide.objects.chapter_04;
 
 public enum DiscountConditionType {
     SEQUENCE, // 순번 조건
