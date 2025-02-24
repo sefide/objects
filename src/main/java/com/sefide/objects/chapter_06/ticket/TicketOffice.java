@@ -1,4 +1,4 @@
-package com.sefide.objects.chapter_06;
+package com.sefide.objects.chapter_06.ticket;
 
 public class TicketOffice {
     public void plusAmount(Long amount) {

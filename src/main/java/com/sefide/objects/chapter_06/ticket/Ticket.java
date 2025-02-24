@@ -1,4 +1,4 @@
-package com.sefide.objects.chapter_06;
+package com.sefide.objects.chapter_06.ticket;
 
 public class Ticket {
     private Long fee;
