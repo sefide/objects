@@ -1,5 +1,9 @@
 package com.sefide.objects.chapter_05;
 
+import com.sefide.objects.chapter_04.Customer;
+import com.sefide.objects.chapter_04.Money;
+import com.sefide.objects.chapter_04.Reservation;
+
 import java.time.LocalDateTime;
 
 public class Screening {
